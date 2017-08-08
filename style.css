@@ -1,0 +1,189 @@
+
+
+.header_section { width: 100%;
+                  background: url('intro-bg.jpg');
+                  background-size: cover;
+                  height: 100vh;
+                   margin-top: 10px; }
+.header_body { position: relative;
+               width: 100%;
+               height: 100vh; }                   
+.header_content { color: white;
+	              font-family: 'Shrikhand', cursive;
+	             text-align: center;
+                  position: absolute;
+                  left: 50%;
+                  top: 50%;
+                  transform: translate(-50%, -50%); 
+              }
+.header_content h1 { margin: 10px;
+                      font-size: 50px;    
+                       /*font-family: 'Shrikhand', cursive;*/ }
+.header_content h4 { margin: 10px;
+                     padding-bottom: 10px; 
+                     font-size: 30px;
+                     border-bottom:  2px solid white;
+                     /*font-family: 'Shrikhand', cursive;*/ }
+.header_content button { background-color: white;
+                         color: #7C7C7E; }
+.navbar { margin: 0; }
+
+         /*ipad sectio*/
+
+.ipad_section { background: #f8f8f8;
+                padding: 40px 0; }
+
+.ipad_body  { margin-top: 70px;
+               }
+
+.ipad_body  h1 { font-family: 'Shrikhand', cursive; }
+.ipad_body  p { font-family: sans-serif;
+                   font-size: 20px; }
+                   
+          /*dekstop section*/
+            
+.deks_section { background: white;
+                padding: 40px 0;}
+.deks_body  { margin-top: 70px;
+               }
+.deks_body  h1 { font-family: 'Shrikhand', cursive; }
+.deks_body  p { font-family: sans-serif;
+                   font-size: 20px; }
+
+        /*phone section*/
+
+.phn_section { background: #f8f8f8;
+                padding: 40px 0;}
+.phn_body  { margin-top: 70px;
+               }
+.phn_body  h1 { font-family: 'Shrikhand', cursive; }
+.phn_body  p { font-family: sans-serif;
+                   font-size: 20px; }
+
+
+/*footer section*/
+
+.footer_section { width: 100%; }
+
+.footer_body { background: url('banner-bg.jpg'); 
+               background-size: cover;
+               padding: 100px 0;
+               margin: 0 auto; }
+	              
+	              
+
+.footer_section h1 { font-family: 'Shrikhand', cursive;
+                      padding-top: 50px;
+                      color: white;
+                      margin: 0;
+                      text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+                       }
+
+.footer_btn { padding-top: 50px;
+              font-family: 'Shrikhand', cursive; }
+
+.footer_btn button: { font-family: 'Shrikhand', cursive; }
+
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+.list-inline li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+a { font-family: sans-serif;
+    color: #337ab7;
+    text-decoration: none;
+}
+p.copyright { font-family: sans-serif;
+    margin: 15px 0 0;
+}
+
+.text-muted {
+    color: #777;
+}
+
+
+
+
+/*footer section ends*/
+
+
+
+
+
+
+
+
+/*media querry--- must be in the last of css file-- */
+
+/*mobile*/
+@media (max-width: 767px) { 
+
+.header_content h1 { font-size: 35px; }
+
+.header_content h4 { font-size: 25px; }
+
+.header_content button { display: inline-block;
+                           }
+.header_section { margin-top: 20px; }
+
+.ipad_body { text-align: center;
+             margin-top: 10px; }
+.deks_body { text-align: center;
+             margin-top: 10px; }
+.phn_body { text-align: center;
+            margin-top: 10px; }
+
+.footer_section  { text-align: center; }
+
+
+
+}
+@media (min-width: 768px) and (max-width: 991px) { 
+.header_section { margin-top: 20px;
+ }
+
+.header_content h1 { font-size: 40px; }
+
+.header_content h4 { font-size: 28px; }
+
+.header_content button { display: inline-block; } 
+                         
+.ipad_body { margin-top: 20px; }
+
+.ipad_section img { margin-top: 60px; }
+.deks_section img { margin-top: 120px; }
+.phn_section img { margin-top: 100px; }
+
+                           }
+@media (min-width: 992px) and (max-width: 1199px) { 
+
+.ipad_body { margin-top: 40px; }
+.deks_body { margin-top: 40px; }
+.phn_body { margin-top: 40px; }
+
+
+
+ }
+@media (min-width: 1200px) { 
+
+ }
+
+
+
+
+
+
